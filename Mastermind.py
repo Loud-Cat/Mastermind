@@ -94,16 +94,16 @@ def play_game(): # Reset score & code, new game
                 break
 
 # Welcome screen:
-print ("Welcome to Mastermind!")
-print ("You have 5 chances to guess my secret 4-digit code!")
-print ("Your guess must be 4 digits, and you can only use the same digit once!")
-print ("All digits in the code must be between 1 and 7")
-print("The guess format works in two ways: 'abcd' or 'a b c d'")
-print ("----------")
-print ("After each guess, I'll give you four responses in random order:")
-print ("WHITE: One of your numbers is right, but it's not in the place!")
-print ("RED: One of your numbers is right AND it's in the right place!")
-print ("BLACK: One of your numbers is not the right number OR place.")
+print("""Welcome to Mastermind!
+You have 5 chances to guess my secret 4-digit code!
+Your guess must be 4 digits, and you can only use the same digit once!
+All digits in the code must be between 1 and 7
+The guess format works in two ways: 'abcd' or 'a b c d'
+----------
+After each guess, I'll give you four responses in random order:
+WHITE: One of your numbers is right, but it's not in the place!
+RED: One of your numbers is right AND it's in the right place!
+BLACK: One of your numbers is not the right number OR place.""")
 print ("----------")
 print ("Attempts: 5")
 play_game()
